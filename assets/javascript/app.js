@@ -276,37 +276,37 @@ $(document).ready(function () {
     // change color as time pass for fun
     setInterval(function () {
         $(".title").attr("style", "color:red");
-        $(".startButton").attr("style", "background:rgb(85, 22, 233)");
+        $(".startButton, .resetButton").attr("style", "background:rgb(85, 22, 233)");
         $(".remain").attr("style", "color:green");
     }, 2000);
     setInterval(function () {
         $(".title").attr("style", "color:yellow");
-        $(".startButton").attr("style", "background:rgb(18, 219, 219)");
+        $(".startButton, .resetButton").attr("style", "background:rgb(18, 219, 219)");
         $(".remain").attr("style", "color:brown");
     }, 3000);
     setInterval(function () {
         $(".title").attr("style", "color:blue");
-        $(".startButton").attr("style", "background:rgb(213, 18, 219)");
+        $(".startButton, .resetButton").attr("style", "background:rgb(213, 18, 219)");
         $(".remain").attr("style", "color:purple");
     }, 5000);
     setInterval(function () {
         $(".title").attr("style", "color:rgb(9, 245, 40)");
-        $(".startButton").attr("style", "background:black");
+        $(".startButton, .resetButton").attr("style", "background:black");
         $(".remain").attr("style", "color:blue");
     }, 7000);
     setInterval(function () {
         $(".title").attr("style", "color:rgb(213, 18, 219)");
-        $(".startButton").attr("style", "background:blue");
+        $(".startButton, .resetButton").attr("style", "background:blue");
         $(".remain").attr("style", "color:orange");
     }, 11000)
     setInterval(function () {
         $(".title").attr("style", "color:rgb(18, 219, 219)");
-        $(".startButton").attr("style", "background:yellow");
+        $(".startButton, .resetButton").attr("style", "background:yellow");
         $(".remain").attr("style", "color:violet");
     }, 17000);
     setInterval(function () {
         $(".title").attr("style", "color:rgb(85, 22, 233)");
-        $(".startButton").attr("style", "background:red");
+        $(".startButton, .resetButton").attr("style", "background:red");
         $(".remain").attr("style", "color:cyan");
     }, 7000);
 

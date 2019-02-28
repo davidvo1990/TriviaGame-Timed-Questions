@@ -26,6 +26,7 @@ h1 {
 .resetButton {
     font-weight: bold;
     border: 2px solid red;
+    background: blue;
 }
 
 .image {
