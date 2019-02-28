@@ -277,37 +277,37 @@ $(document).ready(function () {
     setInterval(function () {
         $(".title").attr("style", "color:red");
         $(".startButton").attr("style", "background:rgb(85, 22, 233)");
-        $(".timer").attr("style", "color:green");
+        $(".remain").attr("style", "color:green");
     }, 2000);
     setInterval(function () {
         $(".title").attr("style", "color:yellow");
         $(".startButton").attr("style", "background:rgb(18, 219, 219)");
-        $(".timer").attr("style", "color:brown");
+        $(".remain").attr("style", "color:brown");
     }, 3000);
     setInterval(function () {
         $(".title").attr("style", "color:blue");
         $(".startButton").attr("style", "background:rgb(213, 18, 219)");
-        $(".timer").attr("style", "color:purple");
+        $(".remain").attr("style", "color:purple");
     }, 5000);
     setInterval(function () {
         $(".title").attr("style", "color:rgb(9, 245, 40)");
         $(".startButton").attr("style", "background:black");
-        $(".timer").attr("style", "color:blue");
+        $(".remain").attr("style", "color:blue");
     }, 7000);
     setInterval(function () {
         $(".title").attr("style", "color:rgb(213, 18, 219)");
         $(".startButton").attr("style", "background:blue");
-        $(".timer").attr("style", "color:orange");
+        $(".remain").attr("style", "color:orange");
     }, 11000)
     setInterval(function () {
         $(".title").attr("style", "color:rgb(18, 219, 219)");
         $(".startButton").attr("style", "background:yellow");
-        $(".timer").attr("style", "color:violet");
+        $(".remain").attr("style", "color:violet");
     }, 17000);
     setInterval(function () {
         $(".title").attr("style", "color:rgb(85, 22, 233)");
         $(".startButton").attr("style", "background:red");
-        $(".timer").attr("style", "color:cyan");
+        $(".remain").attr("style", "color:cyan");
     }, 7000);
 
     // sound for fun
