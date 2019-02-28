@@ -1,0 +1,80 @@
+/* general css */
+body {
+    /* background-image: url("assets/images/trivia.jpg"); */
+    background-image: url("../images/trivia.jpg");
+    /* color: white; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 15px;
+    line-height: 35px;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: bold;
+    /* color: rgb(255, 255, 255); */
+}
+
+.body {
+    text-align: center;
+}
+/* button style */
+.startButton,
+.resetButton {
+    font-weight: bold;
+    border: 2px solid red;
+}
+
+.image {
+    max-width: 400px;
+}
+/* hover for each answer */
+.ans:hover {
+    color: orangered;
+    cursor: pointer;
+    border: 2px solid green;
+    background: chartreuse;
+}
+
+.head {
+    text-align: center;
+}
+/* title header */
+.title {
+    color: red;
+}
+
+/* answer css */
+.question {
+    color: green;
+}
+
+.answerChoice {
+    font-weight: bold;
+    color: blue;
+}
+
+.remain {
+    font-weight: bold;
+    color: red;
+}
+
+.ans {
+    color: gray;
+}
+
+.question {
+    font-weight: bold;
+    color: goldenrod;
+}
+
+.correctAnswer {
+    font-weight: bold;
+}
+
+.box {
+    font-weight: bold;
+}
